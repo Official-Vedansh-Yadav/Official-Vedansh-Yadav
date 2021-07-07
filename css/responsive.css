@@ -1,0 +1,44 @@
+/* This CSS File is for Media Queries */
+
+@media only screen and (max-width : 1115px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 440px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 75px;
+    }
+    .v-nav{
+        visibility: hidden;
+    }
+    .sections{
+        height: 175vh;
+        flex-direction: column-reverse;
+    }
+    .sections p{
+        text-align: justify;
+    }
+    .firstsection{
+        height: 150vh;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .box-main p{
+        text-align: justify;
+    }
+}

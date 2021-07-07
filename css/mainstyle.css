@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* styling of nav-bar starts */
+
+
+/* styling of logo of the nav-bar starts*/
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+/* styling of logo of the nav-bar ends*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+/* styling of list in nav-bar starts*/
+
+.nav-list{
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-list li{
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* styling of list in nav-bar ends*/
+
+
+/* rightNav styling */
+
+.rightNav{
+    width: 30%;
+    /* background-color: skyblue; */
+    text-align: right;
+}
+
+/* search input of navbar */
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* styling of nav-bar ends */
+
+
+/*  background of the website  */
+.background{
+    background: rgba(0,0,0,0.7) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling of first-half div of main-box div starts */
+.first-half{
+    margin-left: 10px;
+    width: 50%;
+    margin-right: 60px;
+}
+
+.first-half p{
+    text-align: justify;
+    color: #fff;
+}
+
+.big-text{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.small-text{
+    font-size: 20px;
+}
+
+/* Styling of first-half div of main-box div ends */
+
+
+/* Styling of second-half div of main-box div starts */
+
+.second-half{
+    width: 50%;
+}
+
+.second-half img{
+    width: 80%;
+    margin-top: 10px;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+
+.buttons{
+    display: flex;
+}
+
+/* Styling of second-half div of main-box div ends */
+
+
+/* Styling of buttons start */
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    font-size: 20px;
+    background: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-sn{
+    padding: 5px 8px;
+    font-size: 17px;
+    height: 35px;
+}
+
+.btn-sx{
+    height: 42px;
+    text-align: justify;
+    padding: 2px 8px;
+}
+
+/* Styling of buttons end */
+
+/* Styling of sections starts */
+
+.section{
+    height: 300px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.box1 p{
+      margin-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0 60px;
+}
+
+
+.sectionheading{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+.sectionsubheading{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.thumbnail img{
+    width: 289px;
+    height: 250px;
+    margin-top: 15px;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+
+
+.sec-left{
+    flex-direction: row-reverse;
+    margin: 10%;
+    padding-left: 30px;
+}
+
+/* Styling of sections ends */
+
+/*   Styling of Contact Section starts here   */
+
+.contact{
+    background-color: cornsilk;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact div{
+    font-size: 20px;
+}
+
+form {
+    max-width: 1237px;
+}
+/* styling for all input tags in form */
+
+.contact input{
+    width: 25%;
+    height: 25px;
+    border: 2px solid rgb(168, 167, 167);
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* style for First Name and Last Name input */
+
+.name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* style for E-Mail and phone Number input */
+
+.identity{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* styling for form Textarea */
+
+.contact textarea{
+    width: 52%;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+/* styling for submit button */
+
+.contact button{
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(skyblue,cyan);
+}
+
+/*   Styling of Contact Section ends here   */
+
+
+/* styling of footer text starts here */
+
+.footer-text{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* styling of footer text ends here */
+
+/* Styling for hamburger starts here*/
+
+.burger{
+      display: none;
+      position: absolute;
+      right: 5%;
+      top: 5%;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+/* Styling for hamburger ends here*/
+
